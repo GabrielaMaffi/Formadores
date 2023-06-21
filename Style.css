@@ -1,0 +1,41 @@
+@import url(“styles/header.css”);
+
+body {
+background-color: var(--cor-de-fundo);
+}
+
+header {
+    background-color: #07224b;
+    color: white;
+}
+.cabecalho{
+    background-color: #072449;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 0;
+    }
+.container {
+    display: flex;
+    align-items: center;
+        } 
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 30px;
+    font-size: 30px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --cor-de-fundo: #fcfdfd;
+}
+:root{
+    --cor-de-fundo:  #EBECEE;
+    --branco:  #FFFFFF;
+    --amarelo:  #FECD2F;
+    --roxo: #733887;
+}
+
